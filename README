@@ -1,8 +1,8 @@
-busquedas en twitter permite usando jquery hacer busquedas considerando los siguientes valores :
-
-  - imagen del usuario : $("#data").append('<img src="'+ data.results[i].profile_image_url + '" />');
-	- usuario:    				 $("#data").append("<div>@"+ data.results[i].from_user + "</div>");
-  - mensaje del usuario: $("#data").append("<div>"+ data.results[i].text + "</div>");
-	- Fecha de creacion  : $("#data").append("<div>"+ data.results[i].created_at + "</div>");
-  - 'edad' del resultado : $("#data").append("<div>"+ data.results[i].metadata.result_type + "</div>");
-
+<p>busquedas en twitter permite usando jquery hacer busque
+<ul>
+    <li>  imagen del usuario : $("#data").append('<img src="'+ data.results[i].profile_image_url + '" />');</li>
+    <li>  usuario : $("#data").append("<div>@"+ data.results[i].from_user + "</div>");</li>
+    <li>  mensaje del usuario : $("#data").append("<div>"+ data.results[i].text + "</div>")</li>
+    <li>  Fecha de creacion  : $("#data").append("<div>"+ data.results[i].created_at + "</div>");</li>
+    <li>  'edad' del resultado : $("#data").append("<div>"+ data.results[i].metadata.result_type + "</div>");</li>
+</ul> 
